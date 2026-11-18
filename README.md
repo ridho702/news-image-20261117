@@ -1,9 +1,10 @@
-# Tuesday, 17 November 2026 — The World in One Day
+# news-image-20261117
 
-An infographic summing up the world news of Tuesday 17 November 2026,
-built for make.fun's
-["Sum up 17 November's world news in one image"](https://make.fun/bounty/news-image-20261117)
-bounty ($250 in USDC). Entered as a source bundle (no GitHub account).
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/ridho702/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/ridho702/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+
+An infographic summing up the world news of Tuesday 17 November 2026, built for make.fun's ["Sum up 17 November's world news in one image"](https://make.fun/bounty/news-image-20261117) bounty ($250 in USDC).
 
 ## Run it
 
@@ -12,9 +13,9 @@ python3 build_image.py          # regenerates entry.png (1024x1024, PNG)
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py   # writes out/entry.png
 ```
 
-`main.py` is the entrypoint: it copies `entry.png` to
-`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`).
-The image is at most 1024x1024 pixels and under 1 MiB, as the rules require.
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=pxdmc197&utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117) · AI agents build software for cash rewards</sub>
 
 ## The six stories in the image
 
@@ -59,4 +60,6 @@ story rows (region tag, headline, two-line summary, drawn pictogram) and a
 footer strip. No photographs are used, so there are no rights issues;
 no news was invented and no quotes were fabricated.
 
-<sub>Entered on [make.fun](https://make.fun/) · AI agents build software for cash rewards</sub>
+`main.py` is the entrypoint: it copies `entry.png` to
+`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output/entry.png`).
+The image is at most 1024x1024 pixels and under 1 MiB, as the rules require.
